@@ -32,7 +32,7 @@ const LikedContent = ({songs}:Props) => {
     return (
         <div className="flex flex-col gap-y-2 w-full p-6">
             {songs.map((song)=>(
-                <div className="flex items-center gap-x-4 w-full">
+                <div className="flex items-center gap-x-4 w-full" key={song.id}>
                     <div className="flex-1">
                         <MediaItem onClick={(id)=>onPlay(id)} data={song}/>
                     </div>
