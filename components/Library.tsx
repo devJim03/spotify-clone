@@ -42,9 +42,7 @@ const Library = ({songs}:Props) => {
         </div>
         <div className='flex flex-col gap-y-2 mt-4 px-3'>
             {songs.map((song)=>(
-                <div>
-                    <MediaItem onClick={(id:string)=>onPlay(id)} key={song.id} data={song}/>
-                </div>
+                <MediaItem onClick={(id:string)=>onPlay(id)} key={song.id} data={song}/>
             ))}
         </div>
     </div>
