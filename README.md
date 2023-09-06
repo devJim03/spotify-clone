@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Spotify Clone
 
-First, run the development server:
+A functional clone of the popular music streaming app, built with *Next 13, React, Supabase and PostgreSQL*. <br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+*Check out the project at: [https://spotify-clone-tan-ten.vercel.app/](https://spotify-clone-tan-ten.vercel.app/)*
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="1728" alt="Screenshot 2023-09-06 at 4 08 32 PM" src="https://github.com/devJim03/spotify-clone/assets/70818902/b5e9fe8e-e1dc-4f73-81bd-3b226f396931">
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Functionality
 
-## Learn More
+- Full music player functionality (play/pause, vol/mute, next/prev)
+- "Liked" and search functionality to find and sort songs
+- Full account functionality including personal playlists and sign-ins.
 
-To learn more about Next.js, take a look at the following resources:
+Written in typescript with tailwind and incorporates supabase DB to store user accounts and songs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img width="1728" alt="Screenshot 2023-09-06 at 4 09 41 PM" src="https://github.com/devJim03/spotify-clone/assets/70818902/b5e3ed9f-da85-4fc0-b762-3ef30be609d4">
+<img width="1712" alt="Screenshot 2023-09-06 at 4 28 16 PM" src="https://github.com/devJim03/spotify-clone/assets/70818902/231d5b85-b1e7-4caf-9c9c-59367237a2ec">
+<img width="1728" alt="Screenshot 2023-09-06 at 4 09 41 PM" src="https://github.com/devJim03/spotify-clone/assets/70818902/cddd1ccb-6a90-4596-be72-0ef24bc306cd">
+<img width="1728" alt="Screenshot 2023-09-06 at 4 10 02 PM" src="https://github.com/devJim03/spotify-clone/assets/70818902/ead21c61-6261-451c-be06-cdc3b2a9066a">
